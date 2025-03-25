@@ -16,7 +16,7 @@ namespace jogoDaAdivinhacao
                 try
                 {
                     acertou = false;
-                    HashSet<int> numerosChutados = new HashSet<int>(); // Armazena os números já chutados
+                    HashSet<int> numerosChutados = new HashSet<int>();
 
                     Console.WriteLine("-----------------------------------");
                     Console.WriteLine("Jogo da Adivinhação");
@@ -60,7 +60,7 @@ namespace jogoDaAdivinhacao
                                 continue;
                             }
 
-                            numerosChutados.Add(numeroDigitado); // Adiciona ao histórico de tentativas
+                            numerosChutados.Add(numeroDigitado);
                             break;
 
                         } while (true);
